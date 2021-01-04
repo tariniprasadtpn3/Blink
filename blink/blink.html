@@ -1,0 +1,44 @@
+<html>
+<body>
+<div id="head">
+     <div id="eye1"></div>
+	 <div id="eye2"></div> 
+</div>
+</body>
+<style>
+#head{
+width:350px;
+height:350px;
+background-color:blue;
+position:absolute;
+border-radius:50%;
+left:500px;
+top:150px;
+}
+#eye1{
+width:80px;
+height:80px;
+background-color:white;
+position:absolute;
+border-radius:50%;
+left:50px;
+top:50px;
+-webkit-transform-origin: 50%;
+-webkit-animation: blink 2s infinite;
+}
+#eye2{
+width:80px;
+height:80px;
+background-color:white;
+position:absolute;
+border-radius:50%;
+left:210px;
+top:50px;
+-webkit-transform-origin: 50%;
+-webkit-animation: blink 2s infinite;
+}
+@-webkit-keyframes blink{
+    0%, 100% {transform: scale(1, .05);}5%,95% {
+       transform: scale(1, 1);}
+</style>
+</html>
