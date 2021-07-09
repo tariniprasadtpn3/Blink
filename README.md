@@ -1,3 +1,4 @@
 # Blink
 
-Just an eye blink using html and css.
+- Just an eye blink.
+- Made this using HTML and CSS.
